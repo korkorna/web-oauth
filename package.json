@@ -1,0 +1,26 @@
+{
+  "name": "web-oauth",
+  "version": "1.0.0",
+  "description": "oauth pratice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "korkorna",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.3.5",
+    "ejs": "^2.3.1",
+    "express": "^4.13.0",
+    "express-session": "^1.11.3",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0"
+  },
+  "oauth": {
+    "facebook": {
+      "FACEBOOK_APP_ID": "400432903485962",
+      "FACEBOOK_APP_SECRET": "77394123f63cf79dcdf323aa13ba75eb",
+      "callbackURL": "http://125.129.229.1:5555/auth/facebook/callback"
+    }
+  }
+}
